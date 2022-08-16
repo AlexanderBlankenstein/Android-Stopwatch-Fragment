@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".StopwatchActivity">
+    tools:context=".StopwatchFragment">
 
     <TextView
         android:id="@+id/time_view"
@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:onClick="onClickStart"
         android:text="@string/start"/>
 
     <Button
@@ -31,7 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:onClick="onClickStop"
         android:text="@string/stop"/>
 
     <Button
@@ -40,6 +38,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:onClick="onClickReset"
         android:text="@string/reset"/>
 </LinearLayout>
